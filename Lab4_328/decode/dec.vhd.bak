@@ -1,0 +1,14 @@
+--Author: Daniel Khan (500898010)
+--COE318 (Section 041)
+--Lab 3: Adder and Subractor Unit
+
+LIBRARY ieee;								--Defining all libraries and packages
+USE ieee.std_logic_1164.all;
+
+ENTITY dec IS 
+	PORT( w  : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+			En : IN STD_LOGIC;
+			y  : OUT STD_LOGIC_VECTOR(0 to 3));
+END dec;
+
+ARCHITECTURE behavior OF dec IS 

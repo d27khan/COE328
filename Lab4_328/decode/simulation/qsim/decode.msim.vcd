@@ -1,0 +1,146 @@
+$comment
+	File created using the following command:
+		vcd file decode.msim.vcd -direction
+$end
+$date
+	Wed Jul 29 19:45:54 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module dec3to8_vlg_vec_tst $end
+$var reg 1 ! En $end
+$var reg 2 " w [1:0] $end
+$var reg 1 # w2 $end
+$var wire 1 $ y0 $end
+$var wire 1 % y1 $end
+$var wire 1 & y2 $end
+$var wire 1 ' y3 $end
+$var wire 1 ( y20 $end
+$var wire 1 ) y21 $end
+$var wire 1 * y22 $end
+$var wire 1 + y23 $end
+$var wire 1 , sampler $end
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 En~combout $end
+$var wire 1 4 w2~combout $end
+$var wire 1 5 inst|Mux0~0_combout $end
+$var wire 1 6 inst|Mux1~0_combout $end
+$var wire 1 7 inst|Mux2~0_combout $end
+$var wire 1 8 inst|Mux3~0_combout $end
+$var wire 1 9 inst1|Mux0~0_combout $end
+$var wire 1 : inst1|Mux1~0_combout $end
+$var wire 1 ; inst1|Mux2~0_combout $end
+$var wire 1 < inst1|Mux3~0_combout $end
+$var wire 1 = w~combout [1] $end
+$var wire 1 > w~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+b0 "
+0#
+0$
+0%
+0&
+1'
+0(
+0)
+0*
+0+
+x,
+0-
+1.
+x/
+10
+11
+12
+13
+04
+15
+06
+07
+08
+09
+0:
+0;
+0<
+0>
+0=
+$end
+#10000
+b1 "
+1>
+0,
+16
+05
+1&
+0'
+#20000
+b11 "
+b10 "
+0>
+1=
+1,
+17
+06
+1%
+0&
+#30000
+b11 "
+1>
+0,
+18
+07
+1$
+0%
+#40000
+1#
+b1 "
+b0 "
+14
+0>
+0=
+1,
+19
+08
+1+
+0$
+#50000
+b1 "
+1>
+0,
+1:
+09
+1*
+0+
+#60000
+b11 "
+b10 "
+0>
+1=
+1,
+1;
+0:
+1)
+0*
+#70000
+b11 "
+1>
+0,
+1<
+0;
+1(
+0)
+#80000

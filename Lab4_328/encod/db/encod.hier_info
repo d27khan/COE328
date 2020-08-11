@@ -1,0 +1,25 @@
+|encode
+z <= encod:inst.z
+w[0] => encod:inst.w[0]
+w[1] => encod:inst.w[1]
+w[2] => encod:inst.w[2]
+w[3] => encod:inst.w[3]
+y[0] <= encod:inst.y[0]
+y[1] <= encod:inst.y[1]
+
+
+|encode|encod:inst
+w[0] => Equal0.IN3
+w[1] => y.DATAA
+w[1] => Equal0.IN2
+w[2] => y.OUTPUTSELECT
+w[2] => y.DATAA
+w[2] => Equal0.IN1
+w[3] => y.OUTPUTSELECT
+w[3] => y.OUTPUTSELECT
+w[3] => Equal0.IN0
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+z <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\Quartus\COE328\Lab4_328\johns\simulation\qsim
+vJohnsschem
+Z1 !s100 jWfg83[hJTFgARS99k5aK0
+Z2 IFfELG5z1HhN1PLamUH`KP3
+Z3 VVo?6Ym@AHzaEPn6nlM=CW1
+Z4 dH:\Quartus\COE328\Lab4_328\johns\simulation\qsim
+Z5 w1596077094
+Z6 8johns.vo
+Z7 Fjohns.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|johns.vo|
+Z10 o-work work -O0
+Z11 n@johnsschem
+!i10b 1
+!s85 0
+Z12 !s108 1596077095.277000
+Z13 !s107 johns.vo|
+!s101 -O0
+vJohnsschem_vlg_check_tst
+!i10b 1
+Z14 !s100 6NGf0hZ4l1z@SM6908mjf2
+Z15 I03KG?DdU=JM9c?P<`7AWO2
+Z16 VAOMbmzAI@;B?9>1BTc;[;0
+R4
+R5
+Z17 8johns.vt
+Z18 Fjohns.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z19 !s108 1596077095.671000
+Z20 !s107 johns.vt|
+Z21 !s90 -work|work|johns.vt|
+!s101 -O0
+R10
+Z22 n@johnsschem_vlg_check_tst
+vJohnsschem_vlg_sample_tst
+!i10b 1
+Z23 !s100 Q8LNEVzC]=0=m5OCoMNS[3
+Z24 IRT<GO2@1ElLaMez8a6MJY0
+Z25 VoAAoC5=c@J=f^maWgWf<z0
+R4
+R5
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z26 n@johnsschem_vlg_sample_tst
+vJohnsschem_vlg_vec_tst
+!i10b 1
+Z27 !s100 [1j3JVW]_[G0Bo:<Na8<33
+Z28 ID:9`a8IBajKcSc6zh^]RI2
+Z29 VHbL5QXAC7XNPDzLNb6N>E3
+R4
+R5
+R17
+R18
+Z30 L0 284
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z31 n@johnsschem_vlg_vec_tst

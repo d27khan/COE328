@@ -1,0 +1,15 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+
+ENTITY lab2 IS
+PORT(
+A,B,C,D: IN STD_logic;
+f: OUT STD_LOGIC);
+END lab2;
+
+ARCHITECTURE Behavior OF lab2 IS
+BEGIN 
+f <=
+
+END Behavior;

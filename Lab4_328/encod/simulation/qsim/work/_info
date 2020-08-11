@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\Quartus\COE328\Lab4_328\encod\simulation\qsim
+vencode
+Z1 !s100 `AOPal>mXGzz]8:dMhXkB2
+Z2 I[P11UNaYVIA7AkY3WGML20
+Z3 VUl5C@[j>jKd;hoZd[g5Oh0
+Z4 dH:\Quartus\COE328\Lab4_328\encod\simulation\qsim
+Z5 w1596077217
+Z6 8encod.vo
+Z7 Fencod.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|encod.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1596077218.185000
+Z12 !s107 encod.vo|
+!s101 -O0
+vencode_vlg_check_tst
+!i10b 1
+Z13 !s100 J=54f]^J_Y_H7G;=QnJXD0
+Z14 I;R1Z>G0YA>i>f5ZE<iK8@0
+Z15 Vm84TL:RP>4c153JekSj@60
+R4
+Z16 w1596077216
+Z17 8encod.vt
+Z18 Fencod.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z19 !s108 1596077218.498000
+Z20 !s107 encod.vt|
+Z21 !s90 -work|work|encod.vt|
+!s101 -O0
+R10
+vencode_vlg_sample_tst
+!i10b 1
+Z22 !s100 HJ0GiiSBj1ei5`=d_gefI0
+Z23 IXY;lk[ZZQ?EoAGAZ6D4>k1
+Z24 VB]0KkHZ0L4c8c58k<O^lb2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vencode_vlg_vec_tst
+!i10b 1
+Z25 !s100 Vlzf@P>g9dnOZ3HTfIom;3
+Z26 Ie7EIhn2J:zbZBMR3UbUNQ1
+Z27 V4<>T]bm7Doz7HVZCUaSLj2
+R4
+R16
+R17
+R18
+Z28 L0 196
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

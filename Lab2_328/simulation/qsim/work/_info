@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\Quartus\COE328\Lab2_328\simulation\qsim
+vLAB2SCHEM2
+Z1 !s100 n[VGTREhA8FQi9VPJblcg0
+Z2 IKSl3`RV;jc8_P6099^Tzb1
+Z3 VjmPbh82fdU1VFlJ_h6C<z3
+Z4 dH:\Quartus\COE328\Lab2_328\simulation\qsim
+Z5 w1594868301
+Z6 8Lab2_impl.vo
+Z7 FLab2_impl.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Lab2_impl.vo|
+Z10 o-work work -O0
+Z11 n@l@a@b2@s@c@h@e@m2
+!i10b 1
+!s85 0
+Z12 !s108 1594868301.935000
+Z13 !s107 Lab2_impl.vo|
+!s101 -O0
+vLAB2SCHEM2_vlg_check_tst
+!i10b 1
+Z14 !s100 AGT5@CXn@>XKNJ;3lhe`B2
+Z15 I1jAQW6n?b]>B5G<SBZJYb1
+Z16 Vh41@BW;[:2V5WU2Tof@eJ2
+R4
+Z17 w1594868300
+Z18 8Lab2_impl.vt
+Z19 FLab2_impl.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z20 !s108 1594868302.132000
+Z21 !s107 Lab2_impl.vt|
+Z22 !s90 -work|work|Lab2_impl.vt|
+!s101 -O0
+R10
+Z23 n@l@a@b2@s@c@h@e@m2_vlg_check_tst
+vLAB2SCHEM2_vlg_sample_tst
+!i10b 1
+Z24 !s100 <?=CeB3b^VIO]eDZ=RiJL3
+Z25 ImU78?D3_g=0aLP8KJZ0Ri0
+Z26 Ve:h:`YR?528e22=75G1[j0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@l@a@b2@s@c@h@e@m2_vlg_sample_tst
+vLAB2SCHEM2_vlg_vec_tst
+!i10b 1
+Z28 !s100 SUfO2IBUIXZm@O7RIDP@l1
+Z29 I9[PRd]PjCz1OMnhi^kSKo1
+Z30 VaD`SCbmV189PT0<TF8m;f2
+R4
+R17
+R18
+R19
+Z31 L0 158
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@l@a@b2@s@c@h@e@m2_vlg_vec_tst
+vLab2schm
+Z33 !s100 ]@0BVB`SeLGXZf;Q=Pl^P2
+Z34 IaEl9WY6lJP=iIYgQckIf90
+Z35 V^1Xii[L`0Vmn38:FANDh82
+R4
+Z36 w1594375892
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z37 n@lab2schm
+Z38 !s108 1594375892.863000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vLab2schm_vlg_check_tst
+Z39 !s100 ;2gOVb?IOjk`:P>lz18T13
+Z40 IeOZ:7V^44EV<FVj=:mbfG2
+Z41 VK3JlA>kgJUU_<I^1F6P1D2
+R4
+Z42 w1594375891
+R18
+R19
+L0 63
+R8
+r1
+31
+Z43 !s108 1594375893.261000
+Z44 !s107 Lab2_impl.vt|
+R22
+R10
+Z45 n@lab2schm_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vLab2schm_vlg_sample_tst
+Z46 !s100 RXAB`=<2ZLK7obCDzMU@>1
+Z47 IJU[Bh=k;jb99`BiaCPe`f3
+Z48 V]C1hoDS>GoTfaIL:CiF_93
+R4
+R42
+R18
+R19
+L0 29
+R8
+r1
+31
+R43
+R44
+R22
+R10
+Z49 n@lab2schm_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vLab2schm_vlg_vec_tst
+Z50 Ih@U4?Q_ThUKlJ?H8:nm1T3
+Z51 VA4^_gQjNG?z=hWk2If4Fe1
+R4
+R42
+R18
+R19
+R31
+R8
+r1
+31
+R43
+R44
+R22
+R10
+Z52 n@lab2schm_vlg_vec_tst
+Z53 !s100 =O]f>bhcN2Io>TVU5PVCW2
+!i10b 1
+!s85 0
+!s101 -O0

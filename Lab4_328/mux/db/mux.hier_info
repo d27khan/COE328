@@ -1,0 +1,21 @@
+|modifiedmux
+f <= muxMod:inst.f
+w0 => muxMod:inst.w0
+w1 => muxMod:inst.w1
+w2 => muxMod:inst.w2
+w3 => muxMod:inst.w3
+s0 => muxMod:inst.s0
+s1 => muxMod:inst.s1
+
+
+|modifiedmux|muxMod:inst
+w0 => f0.DATAB
+w1 => f0.DATAA
+w2 => f1.DATAB
+w3 => f1.DATAA
+s0 => f1.OUTPUTSELECT
+s0 => f0.OUTPUTSELECT
+s1 => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

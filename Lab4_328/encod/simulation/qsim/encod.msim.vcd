@@ -1,0 +1,90 @@
+$comment
+	File created using the following command:
+		vcd file encod.msim.vcd -direction
+$end
+$date
+	Wed Jul 29 19:46:59 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module encode_vlg_vec_tst $end
+$var reg 4 ! w [3:0] $end
+$var wire 1 " y [1] $end
+$var wire 1 # y [0] $end
+$var wire 1 $ z $end
+$var wire 1 % sampler $end
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , inst|Equal0~0_combout $end
+$var wire 1 - inst|Equal0~1_combout $end
+$var wire 1 . inst|y[0]~0_combout $end
+$var wire 1 / w~combout [3] $end
+$var wire 1 0 w~combout [2] $end
+$var wire 1 1 w~combout [1] $end
+$var wire 1 2 w~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0#
+0"
+0$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+1,
+1-
+0.
+02
+01
+00
+0/
+$end
+#10000
+b1 !
+12
+0%
+0,
+1$
+#20000
+b11 !
+b1x !
+x2
+11
+1%
+1.
+1#
+#30000
+b11x !
+b1xx !
+x1
+10
+0%
+0.
+0-
+0#
+1"
+#40000
+b11xx !
+b1xxx !
+x0
+1/
+1%
+1.
+1#
+#50000

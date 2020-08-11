@@ -1,0 +1,32 @@
+|Johnsschem
+Q[2] <= johns:inst.Q[2]
+Q[1] <= johns:inst.Q[1]
+Q[0] <= johns:inst.Q[0]
+CLRN => johns:inst.Clrn
+E => johns:inst.E
+CLKN => johns:inst.Clkn
+STUDENT_ID[0] <= johns:inst.STUDENT_ID[0]
+STUDENT_ID[1] <= johns:inst.STUDENT_ID[1]
+STUDENT_ID[2] <= johns:inst.STUDENT_ID[2]
+STUDENT_ID[3] <= johns:inst.STUDENT_ID[3]
+
+
+|Johnsschem|johns:inst
+Clrn => Qreg[2].ACLR
+Clrn => Qreg[1].ACLR
+Clrn => Qreg[0].ACLR
+E => Qreg[0].ENA
+E => Qreg[1].ENA
+E => Qreg[2].ENA
+Clkn => Qreg[2].CLK
+Clkn => Qreg[1].CLK
+Clkn => Qreg[0].CLK
+STUDENT_ID[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+STUDENT_ID[1] <= <GND>
+STUDENT_ID[2] <= <GND>
+STUDENT_ID[3] <= Qreg[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Qreg[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Qreg[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[0] <= Qreg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

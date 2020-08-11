@@ -1,0 +1,35 @@
+LIBRARY 	ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY muxMod IS
+	PORT(w0,w1,w2,w3,s0,s1 : IN STD_logic;
+			f		 : OUT STD_logic);
+END muxMod;
+
+ARCHITECTURE Behavior OF muxMod IS
+	SIGNAL f0: STD_logic;
+	SIGNAL f1: STD_logic;
+BEGIN
+		mux1 : PROCESS (w0,w1,s0) IS BEGIN
+			IF (s0 = '0') THEN
+			f0<= w0;
+			ELSE
+			f0<= w1;
+			END IF;
+			END PROCESS;
+			
+		mux2 : PROCESS (w2,w3,s0) IS BEGIN
+			IF (s0 = '0') THEN
+			f1<= w2;
+			ELSE
+			f1<= w3;
+			END IF;
+			END PROCESS;
+			
+		mux3 : PROCESS (f0,f1,s1) IS BEGIN
+			IF (s1 = '0') THEN
+			f<= f0;
+			ELSE
+			f<= f0;
+			END IF;
+			END PROCESS;

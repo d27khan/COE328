@@ -1,0 +1,68 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+ENTITY machine IS
+	PORT (
+		clk			: IN std_logic;
+		data_in		: IN std_logic;
+		reset			: IN std_logic;
+		student_ID	: OUT std_logic_vector(3 DOWNTO 0);
+		current_state	:OUT std_logic_vector(3 DOWNTO 0);
+	);
+END ENTITY;
+
+ARCHITECTURE fsm OF machine IS 
+
+
+TYPE state_type IS (s0,s1,s3,s4,s5,s6,s7,s8);
+SIGNAL yfsm : state_type;
+BEGIN 
+	PROCESS (clk, reset)
+		BEGIN	
+			IF reset = '1' THEN
+				yfsm <= s0;
+			ELSIF( clk 'EVENT AND clk = '1') THEN
+			
+				CASE yfsm IS 
+					WHEN s0=>
+						IF data_in = '1' THEN 
+							yfsm => s1;
+						ELSE
+							yfsm => s0;
+						END IF;
+					WHEN s1=>
+					WHEN s2=>
+					WHEN s3=>
+					WHEN s4=>
+					WHEN s5=>
+					WHEN s6=>
+					WHEN s7=>
+					WHEN s8=>
+				END CASE;
+			END IF;
+		END PROCESS;
+		
+		PROCESS (yfsm, data_in)
+		BEGIN
+			CASE yfsm IS
+				WHEN s0=>
+					IF data_in = '1' THEN 
+						student_ID <= "0000";
+						current_state<="0001";
+					ELSE
+						student_ID<= "0101";
+						current_state<= "0000";
+					END IF;
+					
+						
+				WHEN s1=> 
+				WHEN s2=> 
+				WHEN s3=> 
+				WHEN s4=> 
+				WHEN s5=> 
+				WHEN s6=>
+				WHEN s7=> 
+				WHEN s8=> 
+			END CASE; 	
+		END PROCESS; 
+				
+					

@@ -1,0 +1,57 @@
+# do johns.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Johnsschem
+# 
+# Top level modules:
+# 	Johnsschem
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Johnsschem_vlg_sample_tst
+# -- Compiling module Johnsschem_vlg_check_tst
+# -- Compiling module Johnsschem_vlg_vec_tst
+# 
+# Top level modules:
+# 	Johnsschem_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Johnsschem_vlg_vec_tst 
+# Loading work.Johnsschem_vlg_vec_tst
+# Loading work.Johnsschem
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading work.Johnsschem_vlg_sample_tst
+# Loading work.Johnsschem_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# ERROR! Vector Mismatch for output port Q[0] :: @time = 15000.000 ps
+#      Expected value = 100
+#      Real value = 000
+# ERROR! Vector Mismatch for output port Q[1] :: @time = 25000.000 ps
+#      Expected value = 110
+#      Real value = 100
+# ERROR! Vector Mismatch for output port Q[2] :: @time = 35000.000 ps
+#      Expected value = 111
+#      Real value = 110
+# ERROR! Vector Mismatch for output port Q[0] :: @time = 45000.000 ps
+#      Expected value = 011
+#      Real value = 111
+# ERROR! Vector Mismatch for output port Q[1] :: @time = 55000.000 ps
+#      Expected value = 001
+#      Real value = 011
+# ERROR! Vector Mismatch for output port Q[0] :: @time = 75000.000 ps
+#      Expected value = 100
+#      Real value = 000
+# ERROR! Vector Mismatch for output port Q[1] :: @time = 85000.000 ps
+#      Expected value = 110
+#      Real value = 100
+# ERROR! Vector Mismatch for output port Q[0] :: @time = 105000.000 ps
+#      Expected value = 011
+#      Real value = 111
+#           8 mismatched vectors : Simulation failed !
+# ** Note: $finish    : johns.vt(280)
+#    Time: 110 ns  Iteration: 0  Instance: /Johnsschem_vlg_vec_tst/tb_out

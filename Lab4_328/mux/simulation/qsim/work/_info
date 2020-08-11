@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\Quartus\COE328\Lab4_328\mux\simulation\qsim
+vmodifiedmux
+Z1 !s100 2e2XBMNl;j2G[47gid;YG0
+Z2 ISVab^__MQKf?C9>iJ1=SW2
+Z3 VnhXjH1:VP=S=;C3Zh2H;B0
+Z4 dH:\Quartus\COE328\Lab4_328\mux\simulation\qsim
+Z5 w1596077001
+Z6 8mux.vo
+Z7 Fmux.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|mux.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1596077002.267000
+Z12 !s107 mux.vo|
+!s101 -O0
+vmodifiedmux_vlg_check_tst
+!i10b 1
+Z13 !s100 hoE3QTokiGCBGTIgRS`B51
+Z14 In:zN90l8kj:dEV67J[9I<2
+Z15 V?D:PN1YgkEoOFk84C7Dc[3
+R4
+R5
+Z16 8mux.vt
+Z17 Fmux.vt
+L0 67
+R8
+r1
+!s85 0
+31
+Z18 !s108 1596077003.172000
+Z19 !s107 mux.vt|
+Z20 !s90 -work|work|mux.vt|
+!s101 -O0
+R10
+vmodifiedmux_vlg_sample_tst
+!i10b 1
+Z21 !s100 n>E=?c`8G_gGR5^cY6_Ig0
+Z22 IVU_R]No8EEXiEE0d=G<Ub0
+Z23 V^48Y_^BUJ8g>jhd8GU4W92
+R4
+R5
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+vmodifiedmux_vlg_vec_tst
+!i10b 1
+!s100 zj@dK[[8E2EU:hEnNDGYd2
+IO7GRBRf5FPL9@J1MLRIh^3
+Z24 V]ngekUCBmL[nm2b8P=H^`2
+R4
+R5
+R16
+R17
+Z25 L0 162
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10

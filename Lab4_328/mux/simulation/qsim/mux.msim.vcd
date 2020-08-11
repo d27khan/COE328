@@ -1,0 +1,102 @@
+$comment
+	File created using the following command:
+		vcd file mux.msim.vcd -direction
+$end
+$date
+	Wed Jul 29 19:43:24 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module modifiedmux_vlg_vec_tst $end
+$var reg 1 ! s0 $end
+$var reg 1 " s1 $end
+$var reg 1 # w0 $end
+$var reg 1 $ w1 $end
+$var reg 1 % w2 $end
+$var reg 1 & w3 $end
+$var wire 1 ' f $end
+$var wire 1 ( sampler $end
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / s0~combout $end
+$var wire 1 0 w3~combout $end
+$var wire 1 1 w1~combout $end
+$var wire 1 2 w0~combout $end
+$var wire 1 3 s1~combout $end
+$var wire 1 4 inst|f~0_combout $end
+$var wire 1 5 w2~combout $end
+$var wire 1 6 inst|f~1_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+0$
+0%
+0&
+1'
+x(
+0)
+1*
+x+
+1,
+1-
+1.
+0/
+00
+01
+12
+03
+14
+05
+16
+$end
+#10000
+1"
+0#
+1%
+13
+02
+15
+0(
+06
+04
+16
+0'
+1'
+#20000
+1!
+1$
+0"
+0%
+1/
+11
+03
+05
+1(
+14
+06
+16
+0'
+1'
+#30000
+1&
+0$
+1"
+10
+01
+13
+0(
+#40000

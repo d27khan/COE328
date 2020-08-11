@@ -1,0 +1,20 @@
+|LAB2SCHEM2
+f <= Lab2schm:inst.f
+A => Lab2schm:inst.A
+B => Lab2schm:inst.B
+C => Lab2schm:inst.C
+D => Lab2schm:inst.D
+
+
+|LAB2SCHEM2|Lab2schm:inst
+f <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst4.IN0
+A => inst7.IN0
+C => inst5.IN0
+C => inst4.IN1
+D => inst3.IN2
+D => inst4.IN2
+B => inst6.IN0
+
+

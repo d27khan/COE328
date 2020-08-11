@@ -1,0 +1,47 @@
+|ASUa
+Cin => Neg$latch.LATCH_ENABLE
+Cin => Sum[4].OUTPUTSELECT
+Cin => Sum[3].OUTPUTSELECT
+Cin => Sum[2].OUTPUTSELECT
+Cin => Sum[1].OUTPUTSELECT
+Cin => Sum[0].OUTPUTSELECT
+Cin => S.OUTPUTSELECT
+Cin => S.OUTPUTSELECT
+Cin => S.OUTPUTSELECT
+Cin => S.OUTPUTSELECT
+Cin => Cout.OUTPUTSELECT
+X[0] => Add0.IN4
+X[0] => Add1.IN8
+X[0] => LessThan0.IN4
+X[1] => Add0.IN3
+X[1] => Add1.IN7
+X[1] => LessThan0.IN3
+X[2] => Add0.IN2
+X[2] => Add1.IN6
+X[2] => LessThan0.IN2
+X[3] => Add0.IN1
+X[3] => Add1.IN5
+X[3] => LessThan0.IN1
+X[3] => Overflow.IN1
+Y[0] => Add0.IN8
+Y[0] => LessThan0.IN8
+Y[0] => Add1.IN4
+Y[1] => Add0.IN7
+Y[1] => LessThan0.IN7
+Y[1] => Add1.IN3
+Y[2] => Add0.IN6
+Y[2] => LessThan0.IN6
+Y[2] => Add1.IN2
+Y[3] => Add0.IN5
+Y[3] => LessThan0.IN5
+Y[3] => Overflow.IN1
+Y[3] => Add1.IN1
+S[0] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Overflow <= Overflow.DB_MAX_OUTPUT_PORT_TYPE
+Neg <= Neg$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

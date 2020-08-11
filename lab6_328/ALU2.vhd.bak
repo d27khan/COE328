@@ -1,0 +1,15 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+USE ieee.numeric_std.all;
+
+ENTITY ALU2 IS
+	PORT( Clock			: IN STD_LOGIC;
+			A,B 			: IN unsigned(7 DOWNTO 0);
+			student_id	: IN unsigned(3 DOWNTO 0); 	
+			OP				: IN unsigned(0 TO 15);
+			neg			: OUT STD_LOGIC; 					
+			R1 			: OUT unsigned(3 DOWNTO 0);	
+			R2				: OUT unsigned(3 DOWNTO 0));  
+END ALU2;
+

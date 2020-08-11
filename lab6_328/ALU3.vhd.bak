@@ -1,0 +1,37 @@
+--Name: Daniel Khan(500898010)
+--COE328 Section 041
+--Lab6:ALU
+LIBRARY ieee; --Defining all libraries and packages
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+USE ieee.numeric_std.all;
+
+ENTITY ALU3 IS
+	PORT( Clock			: IN STD_LOGIC;
+			A,B 			: IN unsigned(7 DOWNTO 0); -- latch inputs
+			student_id	: IN unsigned(3 DOWNTO 0); 	
+			OP				: IN unsigned(0 TO 15);-- Decoder input
+			neg			: OUT STD_LOGIC; 					
+			R1 			: OUT unsigned(3 DOWNTO 0);	-- first 4 bits
+			R2				: OUT unsigned(3 DOWNTO 0));  -- second 4 bits
+END ALU3;
+
+ARCHITECTURE calculation OF ALU3 IS
+	SIGNAL Reg1,Reg2,Result: unsigned(7 DOWNTO 0):=(others => '0');
+	SIGNAL Reg4 : unsigned(0 to 7);
+
+			BEGIN
+				Reg1 <= A;		-- temp storage										
+				Reg2 <= B;
+					PROCESS(Clock,OP)
+						BEGIN	
+							IF(rising_edge(Clock)) THEN 		
+							CASE OP IS 
+							
+							END CASE;
+							END IF;
+						END PROCESS;
+					R1 <= Result(3 DOWNTO 0);
+					R2 <= Result(7 DOWNTO 4);
+				END calculation;
+				
